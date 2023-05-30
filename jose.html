@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partido Liberación Nacional</title>
+    <!-- Favicons -->
+    <link href="img/caja-de-votacion.png" rel="icon">
+    <link href="img/caja-de-votacion.png" rel="apple-touch-icon">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+</head>
+
+<body>
+    <div id="inicio">
+        <header id="segundo">
+            <div id="fotografia">
+                <img src="img/PLN2.png">
+                <h1>Presidente</h1>
+
+            </div>
+            <img id="logopartido" src="img/Bandera_de_Partido_Liberación_Nacional.svg.png" alt="">
+        </header>
+
+        <nav id="menu">
+            <div id="contenedor">
+                <a class="principal" href="index.html">Home</a>
+                <a class="principal" href="#">Partidos Políticos</a>
+                <a class="principal" href="#">Acerca de..</a>
+                <a class="principal last" href="#">Contáctenos</a>
+            </div>
+
+            <div id="date">
+
+            </div>
+
+            <script>
+                document.getElementById("date").innerHTML = new date().toDateString();
+            </script>
+        </nav>
+
+        <main id="principalcontent">
+            <aside id="primarycontent">
+                <h1>Plan</h1>
+                <hr color="#e0f3e6">
+                <div class="content">
+                    <img src="img/planfigueres.JPG" class="picB" alt="" />
+                </div>
+
+                <h1>Principales aspectos</h1>
+                <hr color="#e0f3e6">
+                <br>
+                <div class="linklist">
+                    <ol>
+                        <li>Desarrollo social y Territorial</li>
+                        <li>Infraestructura y Transportes</li>
+                        <li>Ambiente y Energía</li>
+                        <li>Derechos Humanos</li>
+                        <li>Reforma Política</li>
+                        <li>Reforma Estado</li>
+                        <li>Seguridad</li>
+                        <li>Economía</li>
+                        <li>Pobreza</li>
+                    </ol>
+                </div>
+
+                <br>
+
+                <h1>Información de referencia</h1>
+                <hr color="#e0f3e6">
+                <br>
+                <div class="content">
+                    <ol class="linklist">
+                        <li><a href="https://www.tse.go.cr/fichas/candidaturas/P/p-PLN/104790979"
+                                target="_blank">Tribunal Electoral</a></li>
+                    </ol>
+                </div>
+
+                <!-- secondary content end -->
+            </aside>
+
+            <div id="secondarycontent">
+                <article class="post">
+                    <div id="header">
+                        <h1>Partido Liberación Nacional</h1>
+                        <hr color="#e0f3e6">
+                    </div>
+    
+                    <div id="content">
+                        <p>Agradezco a los cientos de personas que contribuyeron de forma generosa y entusiasta a la construcción de 
+                        esta propuesta. Una iniciativa que nació hace diez años, cuando propusimos
+                        la Vía Costarricense hacia un nuevo Proyecto-País. Las ideas que brotaron de ese proceso
+                        se pulieron y ampliaron en un ejercicio participativo durante los últimos seis meses. 
+                       <br>
+                       <br>
+                        Con el concurso de más de 500 personas, decenas de grupos de trabajo y más de 1500 aportes
+                        recibidos en la primera consulta virtual en junio de este año, se elaboró un documento
+                        vivo que continuará enriqueciéndose, hasta convertirse en nuestra ruta para el rescate y la
+                        transformación de Costa Rica, que arrancará el 8 de mayo de 2022.
+                        </p>
+                        <br>
+                        <br>
+                    </div>
+                </article>
+    
+                <article id="post">
+                    <div id="line">
+                        <h1>Análisis Político de cara a las elecciones presidenciales de 2022</h1>
+                        <hr color="#e0f3e6">
+                        <br>
+                        <button class="boton" onclick="playPause()">Reproducir</button>
+                        <video class="center" id="video1" style="text-align:center" autoplay>
+                            <source src="video/Zoom_Electoral_José_Figueres.mp4" type="video/mp4">
+                            <source src="video/Zoom_Electoral_José_Figueres.mp4" type="video/webm">
+                            <source src="video/Zoom_Electoral_José_Figueres.mp4" type="video/ogg">
+                            Su navegador no soporta este formato de video
+                        </video>
+    
+                        <script>
+                            var myVideo = document.getElementById("video1");
+                            function playPause() {
+                                if (myVideo.paused) 
+                                myVideo.play(); 
+                                else 
+                                myVideo.pause();
+                            }
+                        </script>
+                        <p style="font-size: 15px;">Video cortesía de <a href="https://www.youtube.com/watch?v=AJPxToseLNA&list=PLq-ktFywh1aC0VK1XOkpv6ioD_GZ1qDQX&index=3" target="_blank">Zoom Electoral</a></p>
+    
+                    </div>
+                </article>
+                
+                <article id="post">
+                    <div id="line1">
+                        <h1>Discurso de José María Figueres</h1>
+                        <hr color="#e0f3e6">
+                        <br>
+                        <audio controls>
+                            <source src="audio/José_Figueres.mp3" type="audio/mp3">
+                            Tu explorador no soporta el audio
+                        </audio>
+                    </div>
+                </article>
+                
+                <br>
+                
+                <article id="post">
+                    <div id="line2">
+                        <h1>Biografía de José M. Figueres</h1>
+                        <hr color="#e0f3e6">
+                        <br>
+                        <p id="a1" style="font-size: 15px;">
+                            <img src="img/pdf.png" class="autorData">
+                            <a href="archivos/Biografía_José.M_Figueres.pdf" download="Biografía_José.M_Figueres">Descargar Biografía de José M. Figueres</a>
+                        </p>
+                    </div>
+                </article>
+                <br>
+                <br>
+                <article id="post">
+                    <div id="line3">
+                        <h1>Plan de Gobierno</h1>
+                        <hr color="#e0f3e6">
+                        <br>
+                         <p id="a2" style="font-size: 15px;">
+                            <img src="img/pdf.png" class="autorData">
+                            <a href="archivos/Plan_PLN.pdf" download="Plan_PLN">Descargar Programa de Gobierno</a>
+                        </p>
+                    </div>
+                </article>
+                <br>
+            <br>
+            <br>
+            <br>
+            </div>
+        </main>
+    </div>
+
+    <footer id="footer">
+        <credit>&copy; Derechos Reservados &nbsp;</credit>
+        <div id="date">Feb 6, 2023</div>
+        <script>
+            document.getElementById("date").innerHTML = new Date().toDateString()
+        </script>
+    </footer>
+</body>
+
+</html>

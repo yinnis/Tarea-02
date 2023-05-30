@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tico Electoral</title>
+
+    <!-- Favicons -->
+    <link href="img/caja-de-votacion.png" rel="icon">
+    <link href="img/caja-de-votacion.png" rel="apple-touch-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="inicio">
+        <header id="segundo">
+            <div id="fotografia">
+                <img src="img/TSE.png">
+                <h1><span>Tico Electoral 2022</span></h1>
+            </div>
+
+            <img id="logopartido" src="img/logoTSE.png">
+
+        </header>
+
+        <nav id="menu">
+            <div id="contenedor">
+                <a class="principal" href="index.html">Home</a>
+                <a class="principal" href="#">Partidos Políticos</a>
+                <a class="principal" href="#">¿Dónde votar?</a>
+                <a class="principal" href="#">Acerca de...</a>
+            </div>
+
+            <div id="date"></div>
+
+            <script>
+                document.getElementById("date").innerHTML= new date().toDateString();
+            </script>
+
+        </nav>
+
+        <main id="principalcontent">
+            <aside id="primarycontent">
+                <h1>Información:<h1>
+                <hr color="#e0f3e6">
+                <div class="content">
+                    <img src="img/TSE.png" class="picB">
+            
+                </div>
+
+                <h1>Autor:</h1>
+                <hr color="#e0f3e6">
+                <br>
+                <p>Yerlin Amador López
+                    <br>
+                    Est: Ingeniería del Software
+                </p>
+
+                <h1>Referencias:</h1>
+                <hr color="#e0f3e6">
+                <br>
+                <ol class="linklist">
+                    <li><a href="https://www.tse.go.cr/fichas/candidaturas/P" style="color:#004c94;">Tribunal Electoral</a></li>
+                </ol>
+            </aside>
+
+            <div id="secondarycontent">
+                <article class="post">
+                    <div id="header">
+                        <h1>Tico Electoral</h1>
+                        <hr color="#e0f3e6">
+                    </div>
+
+                    <div id="content">
+                        <br>
+                        <img src="img/TE.png" class="picA floatleft" alt=""/>
+                        <br>
+                        <p>Tico Electoral es un sitio web creado para fines educativos donde puede encontrar 
+                            información de los candidatos a la presidencia del 2022. También información 
+                            y estadísticas de las encuestas realizadas a los y las costarricenses, 
+                            según su conocimiento del plan de los partidos políticos vigentes.</p>
+                    </div>
+                    <br>
+                    <br>
+                </article>
+
+                <article id="post">
+                    <br>
+                    <br>
+                    <div id="line">
+                        <h1>Elecciones 2022</h1>
+                        <hr color="#e0f3e6">
+                        <br>
+                        <br>
+                        <table border="1" style="margin: 0 auto; text-align: center; font-size: 15px;">
+                            <tr>
+                                <th colspan="4" align="center"><strong>Candidatos Electorales</strong> </th>
+                            </tr>
+                            <tr>
+                                <td>Bandera &nbsp;</td>
+                                <td>Candidato&nbsp;</td>
+                                <td>Encuesta &nbsp;</td>
+                                <td>Resultados Encuesta&nbsp;</td>
+                            </tr>
+    
+                            <tr>
+                                <td><img src="img/progresosocialdemocratico.jpg" height="50" width="90" alt=""> &nbsp;</td>
+                                <td>Rodrigo Chaves &nbsp;</td>
+                            </tr>
+    
+                            <tr>
+                                <td><img src="img/liberacionnacional.jpg" height="50" width="90" alt=""> &nbsp;</td>
+                                <td>José M. Figueres &nbsp;</td>
+                            </tr>
+    
+                            <tr>
+                                <td><img src="img/Bandera_de_Accion_Ciudadana.png" height="50" width="90" alt=""> &nbsp;</td>
+                                <td>Welmer Ramos &nbsp;</td>
+                            </tr>
+    
+                            <tr>
+                                <td><img src="img/Bandera_Partido_Nueva_República_Costa_Rica.svg.png" height="50" width="90" alt=""> &nbsp;</td>
+                                <td>Fabricio Alvarado &nbsp;</td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                    <br>
+                    <br>
+                </article>
+
+                <article id="post">
+                    <div id="line" style="text-align:justify">
+                        <h1>Candidatos Presidenciales</h1>
+                        <hr color="#e0f3e6">
+                        <br>
+                        <br>
+                        <ol>
+                            <li> <img src="img/PSD2.png" height="150" width="150" alt=""> <a style="font-size: 15px; color:#004c94;" href="rodrigo.html">Rodrigo Chaves</a></li>
+                            <li> <img src="img/PLN2.png" height="150" width="150" alt=""> <a style="font-size: 15px; color:#004c94;" href="jose.html">José M. Figueres</a></li>
+                            <li> <img src="img/PAC2.png" height="150" width="150" alt=""> <a style="font-size: 15px; color:#004c94;" href="welmer.html">Welmer Ramos</a></li>
+                            <li> <img src="img/PNR2.png" height="150" width="150" alt=""> <a style="font-size: 15px; color:#004c94;" href="fabricio.html">Fabricio Alvarado</a></li>
+                        </ol>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </article>
+            </div>
+
+        </main>
+    </div>
+
+    <footer id="footer">
+        <credit>&copy; Derechos Reservados &nbsp;</credit>
+        <div id="date">Feb 6, 2023</div>
+        <script>
+            document.getElementById("date").innerHTML = new Date().toDateString()
+        </script>
+    </footer>
+</body>
+
+</html>

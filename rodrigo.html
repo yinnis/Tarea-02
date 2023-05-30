@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partido Progreso Social Democrático</title>
+    <!-- Favicons -->
+    <link href="img/caja-de-votacion.png" rel="icon">
+    <link href="img/caja-de-votacion.png" rel="apple-touch-icon">
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+</head>
+
+<body>
+    <div id="inicio">
+        <header id="segundo">
+            <div id="fotografia">
+                <img src="img/PSD2.png">
+                <h1>Presidente</h1>
+            </div>
+
+            <img id="logopartido" src="img/banderapsd.png">
+        </header>
+
+        <nav id="menu">
+            <div id="contenedor">
+                <a class="principal" href="index.html">Home</a>
+                <a class="principal" href="#">Partidos Políticos</a>
+                <a class="principal" href="#">Acerca de..</a>
+                <a class="principal last" href="#">Contáctenos</a>
+            </div>
+
+            <div id="date">
+
+            </div>
+
+            <script>
+                document.getElementById("date").innerHTML = new date().toDateString();
+            </script>
+        </nav>
+
+        <main id="principalcontent">
+
+            <aside id="primarycontent">
+                <h1>Plan</h1>
+                <hr color=" #e0f3e6">
+                <div class="content">
+                    <img src="img/planrodrigo.JPG" class="picB" alt="" />
+                </div>
+                <h1>Principales aspectos</h1>
+                <hr color=" #e0f3e6">
+                <br>
+                <div class="linklist">
+                    <ol>
+                        <li>Ambiente y Energía</li>
+                        <li>Desarrollo social y Territorial</li>
+                        <li>Infraestructura y Transportes</li>
+                        <li>Derechos Humanos</li>
+                        <li>Reforma Estado</li>
+                        <li>Reforma Política</li>
+                        <li>Economía</li>
+                        <li>Seguridad</li>
+                        <li>Pobreza</li>
+                    </ol>
+                </div>
+
+                <br>
+
+                <h1>Información de referencia</h1>
+                <hr color=" #e0f3e6">
+                <br>
+                <div class="content">
+                    <ol class="linklist">
+                        <li><a href="https://www.tse.go.cr/fichas/candidaturas/P/p-PSD/105600795"
+                                target="_blank">Tribunal Electoral</a></li>
+                    </ol>
+                </div>
+            </aside>
+
+            <div id="secondarycontent">
+
+                <!-- primary content start-->
+
+                <article class="post">
+                    <div id="header">
+                        <h1>Partido Progreso Social Democrático</h1>
+                        <hr color=" #e0f3e6">
+                    </div>
+
+                    <div id="content">
+                        <p>Nuestro principal objetivo es muy simple: queremos gobernar pensando en el bienestar público.
+                            Es decir, fojar una Costa Rica mejor para todos y dejar un país próspero y con futuro. Y eso
+                            empieza
+                            por evaluat rigurosamente la labor de las instituciones y de los empleados públicos porque
+                            lo que no se mide,
+                            no se puede mejorar. Aprobaremos presupuestos, sí, pero también alcanzaremos objetivos,
+                            exigiremos resultados y cumpliremos metas.
+                            <br>
+                            <br>
+                            Queremos gobernar con el ciudadano. Un costarricense empoderado que tendrá la posibilidad de
+                            moldear el futuro de su país a través
+                            de referéndums, de proponer nuevas leyes y de calificar la calidad de los servicios con
+                            encuestas que identificarán a los buenos
+                            funcionarios y que podrán en jaque a los menos eficientes.
+                            Permítannos demostrarle que Costa Rica no es un país pobre sino muy mal administrado. Nos
+                            proponemos corregir esto con experiencia y valentía.
+                        </p>
+                    </div>
+                </article>
+
+                <article id="post">
+                    <div id="line">
+                        <h1>Análisis Político de cara a las elecciones presidenciales de 2022</h1>
+                        <hr color=" #e0f3e6">
+                        <br>
+                        <button class="boton" onclick="playPause()">Reproducir</button>
+                        <video class="center" id="video1" autoplay>
+                            <source src="video/Zoom_Electoral.mp4" type="video/mp4">
+                            <source src="video/Zoom_Electoral.mp4" type="video/webm">
+                            <source src="video/Zoom_Electoral.mp4" type="video/ogg">
+                            Su navegador no soporta este formato de video
+                        </video>
+
+                        <script>
+                            var myVideo = document.getElementById("video1");
+                            function playPause() {
+                                if (myVideo.paused)
+                                    myVideo.play();
+                                else
+                                    myVideo.pause();
+                            }
+                        </script>
+                        <br>
+                        <br>
+                        <p style="font-size: 15px;">Video cortesía de <a href="https://www.youtube.com/watch?v=SiPBnFQJKDo" target="_blank">Zoom
+                                Electoral</a></p>
+                    </div>
+                </article>
+
+                <article id="post">
+                    <div id="line1">
+                        <h1>Costa Rica nos necesita a todos y a todas unidos de la mano</h1>
+                        <hr color=" #e0f3e6">
+                        <br>
+                        <audio controls>
+                            <source src="audio/Rodrigo_Chaves.mp3" type="audio/mp3">
+                            Tu explorador no soporta el audio
+                        </audio>
+                    </div>
+                </article>
+                <br>
+
+                <article id="post">
+                    <div id="line2">
+                        <h1>Biografía de Rodrigo Chaves</h1>
+                        <hr color=" #e0f3e6">
+                        <br>
+                        <p id="a1" style="font-size: 15px;">
+                            <img src="img/pdf.png" class="autorData">
+                            <a href="archivos/Biografía_Rodrigo-Chaves.pdf" 
+                            download="Biografía_Rodrigo-Chaves">Descargar Biografía de Rodrigo Chaves</a>
+                        </p>
+                    </div>
+                </article>
+                <br>
+                <br>
+                <article id="post">
+                    <div id="line3">
+                        <h1>Plan de Gobierno</h1>
+                        <hr color="#e0f3e6">
+                        <br>
+                        <p id="a2" style="font-size: 15px;">
+                            <img src="img/pdf.png" class="autorData">
+                            <a href="archivos/Plan_PSD.pdf"  download="Plan_PSD">Descargar Programa de Gobierno</a>
+                        </p>
+                    </div>
+                </article>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </main>
+    </div>
+
+    <footer id="footer">
+        <credit>&copy; Derechos Reservados &nbsp;</credit>
+        <div id="date">Feb 6, 2023</div>
+        <script>
+            document.getElementById("date").innerHTML = new Date().toDateString()
+        </script>
+    </footer>
+
+</body>
+
+</html>
